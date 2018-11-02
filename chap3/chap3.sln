@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DumpContentProperty", "DumpContentProperty\DumpContentProperty.csproj", "{D67F6137-44C6-418F-AD09-B915149ED454}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockPanelTest", "DockPanelTest\DockPanelTest.csproj", "{F2A2623B-AF3D-4671-B849-75CD6226D721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockPanelTest2", "DockPanelTest2\DockPanelTest2.csproj", "{C44A6878-792E-4DD0-BEA2-382184D17552}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutedEventDemo", "RoutedEventDemo\RoutedEventDemo.csproj", "{466CEDB4-93ED-4957-97E9-122DCBCAE5D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyPropertyTest", "DependencyPropertyTest\DependencyPropertyTest.csproj", "{3D1300F0-ECFC-4CB3-B5CD-A9FF9C690A74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{38267242-62CD-47FD-8153-EAC7B2AD5BA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D67F6137-44C6-418F-AD09-B915149ED454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67F6137-44C6-418F-AD09-B915149ED454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67F6137-44C6-418F-AD09-B915149ED454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67F6137-44C6-418F-AD09-B915149ED454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A2623B-AF3D-4671-B849-75CD6226D721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A2623B-AF3D-4671-B849-75CD6226D721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A2623B-AF3D-4671-B849-75CD6226D721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A2623B-AF3D-4671-B849-75CD6226D721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C44A6878-792E-4DD0-BEA2-382184D17552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44A6878-792E-4DD0-BEA2-382184D17552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44A6878-792E-4DD0-BEA2-382184D17552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44A6878-792E-4DD0-BEA2-382184D17552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{466CEDB4-93ED-4957-97E9-122DCBCAE5D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{466CEDB4-93ED-4957-97E9-122DCBCAE5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{466CEDB4-93ED-4957-97E9-122DCBCAE5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{466CEDB4-93ED-4957-97E9-122DCBCAE5D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1300F0-ECFC-4CB3-B5CD-A9FF9C690A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1300F0-ECFC-4CB3-B5CD-A9FF9C690A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1300F0-ECFC-4CB3-B5CD-A9FF9C690A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1300F0-ECFC-4CB3-B5CD-A9FF9C690A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38267242-62CD-47FD-8153-EAC7B2AD5BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38267242-62CD-47FD-8153-EAC7B2AD5BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38267242-62CD-47FD-8153-EAC7B2AD5BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38267242-62CD-47FD-8153-EAC7B2AD5BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76202A4F-D149-4937-9863-2357A882B4F4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿<Window x:Class="BackgroundWorkertTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BackgroundWorkertTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="359.844">
+    <Grid Height="422" VerticalAlignment="Top" Margin="0,0,0,-3">
+        <Label Content="숫자를 입력하세요." HorizontalAlignment="Left" Margin="44,25,0,0" VerticalAlignment="Top" Width="121"/>
+        <TextBox x:Name="txtNumber" HorizontalAlignment="Left" Height="23" Margin="170,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54"/>
+        <Button x:Name="btnStart" Content="실행" HorizontalAlignment="Left" Margin="235,29,0,0" VerticalAlignment="Top" Width="44" Height="23" Click="btnStart_Click"/>
+        <Button x:Name="btnCancel" Content="중단" HorizontalAlignment="Left" Margin="284,29,0,0" VerticalAlignment="Top" Width="44" Height="23" Click="btnCancel_Click"/>
+        <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="23" Margin="57,80,0,0" VerticalAlignment="Top" Width="271"/>
+        <ListBox x:Name="lstNumber" HorizontalAlignment="Left" Height="173" Margin="57,123,0,0" VerticalAlignment="Top" Width="113"/>
+        <Label Content="합계는?" HorizontalAlignment="Left" Margin="194,123,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tblkSum" HorizontalAlignment="Left" Height="27" Margin="202,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44"/>
+
+    </Grid>
+</Window>
